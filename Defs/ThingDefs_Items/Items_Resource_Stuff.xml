@@ -33,7 +33,7 @@
 			<statFactors>
 				<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-				<Beauty>1</Beauty>
+				<Beauty>1.3</Beauty>
 				<DoorOpenSpeed>1.5</DoorOpenSpeed>
 				<Flammability>0.7</Flammability>
 				<MaxHitPoints>0.8</MaxHitPoints>
