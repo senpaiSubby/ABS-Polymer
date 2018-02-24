@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<TerrainDef ParentName="BurnedFloorBase">
+		<defName>BurnedABSPolymerFloor</defName>
+		<label>Burned ABS Polymer floor</label>
+		<color>(45,45,43)</color>
+		<renderPrecedence>91</renderPrecedence>
+		<description>Burned-out ABS Polymer flooring.</description>
+		<texturePath>Terrain/Surfaces/ABSFloorBase</texturePath>
+		<edgeType>FadeRough</edgeType>
+	</TerrainDef>
+
+</Defs>

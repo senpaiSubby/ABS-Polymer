@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Tier 2: Basic electricity -->
+
+  <Plastic.label>プラスチック</Plastic.label>
+  <Plastic.description>バイオ液化燃料からプラスチックが作れるようになります。製油施設を使用します。</Plastic.description>
+
+
+</LanguageData>

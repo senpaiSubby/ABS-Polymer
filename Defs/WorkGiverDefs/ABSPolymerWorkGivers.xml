@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkGiverDef>
+    <defName>MakeABSPolymerFromChemfuel</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+	<fixedBillGiverDefs>
+		<li>ABSPolymerworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce Polymer from</verb>
+    <gerund>producing Polymer at</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>MakeABSPolymerFromWood</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+	<fixedBillGiverDefs>
+		<li>ABSPolymerworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce Polymer from</verb>
+    <gerund>producing Polymer at</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+  
+  <WorkGiverDef>
+    <defName>MakeABSPolymerFromOrganics</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Crafting</workType>
+    <priorityInType>100</priorityInType>
+	<prioritizeSustains>true</prioritizeSustains>
+	<fixedBillGiverDefs>
+		<li>ABSPolymerworkTable</li>
+	</fixedBillGiverDefs>
+    <verb>produce Polymer from</verb>
+    <gerund>producing Polymer at</gerund>
+	<requiredCapacities>
+		<li>Manipulation</li>
+	</requiredCapacities>
+  </WorkGiverDef>
+
+</Defs>

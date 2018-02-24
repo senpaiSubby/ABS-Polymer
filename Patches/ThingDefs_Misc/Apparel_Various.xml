@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationSequence">
+				<success>Always</success>
+				<operations>
+					<li Class="PatchOperationTest">
+						<xpath>*/ThingDef[@Name="ArmorMakeableBase"]/recipeMaker/defaultIngredientFilter</xpath>
+						<success>Invert</success>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>*/ThingDef[@Name="ArmorMakeableBase"]/recipeMaker</xpath>
+						<value>
+							<defaultIngredientFilter />
+						</value>
+					</li>
+				</operations>
+			</li>
+			<li Class="PatchOperationSequence">
+				<success>Always</success>
+				<operations>
+					<li Class="PatchOperationTest">
+						<xpath>*/ThingDef[@Name="ArmorMakeableBase"]/recipeMaker/defaultIngredientFilter/exceptedThingDefs</xpath>
+						<success>Invert</success>
+					</li>
+					<li Class="PatchOperationAdd">
+						<xpath>*/ThingDef[@Name="ArmorMakeableBase"]/recipeMaker/defaultIngredientFilter</xpath>
+						<value>
+							<exceptedThingDefs />
+						</value>
+					</li>
+				</operations>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>*/ThingDef[@Name="ArmorMakeableBase"]/recipeMaker/defaultIngredientFilter/exceptedThingDefs</xpath>
+				<value>
+					<li>ABSPolymer</li>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

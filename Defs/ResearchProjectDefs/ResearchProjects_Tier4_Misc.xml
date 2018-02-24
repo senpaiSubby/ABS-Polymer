@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--========================= Tier 4: Hi-tech research bench with multi-analyzer ===================================-->
+
+	<ResearchProjectDef ParentName="ABSPolymerResearchBase">
+		<defName>ABSPolymerWeaveProduction</defName>
+		<label>ABS Polymer Weave</label>
+		<description>Learn to produce ABS Polymer Weave using cloth and ABS at a tailoring bench.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>ABSPolymer</li>
+		</prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

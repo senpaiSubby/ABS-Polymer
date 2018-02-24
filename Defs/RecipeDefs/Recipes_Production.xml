@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<RecipeDef Name="MakeABSPolymerBase" Abstract="True">
+		<effectWorking>Cremate</effectWorking>
+		<soundWorking>Recipe_Cremate</soundWorking>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ABSPolymer</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef ParentName="MakeABSPolymerBase">
+		<defName>MakeABSPolymerFromChemfuel</defName>
+		<label>Make ABS Polymer from chemfuel</label>
+		<description>Make a batch of ABS Polymer by refining chemfuel.</description>
+		<jobString>Making ABS Polymer from chemfuel.</jobString>
+		<workAmount>3500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ABSPolymer>70</ABSPolymer>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeABSPolymerBase">
+		<defName>MakeABSPolymerFromWood</defName>
+		<label>Make ABS Polymer from wood</label>
+		<description>Make a batch of Polymer ABS Polymer from wood. Faster, but will produce less</description>
+		<jobString>Making ABS Polymer from wood.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>70</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Chemfuel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ABSPolymer>50</ABSPolymer>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="MakeABSPolymerBase">
+		<defName>MakeABSPolymerFromOrganics</defName>
+		<label>Make ABS Polymer from organics</label>
+		<description>Make a batch of ABS Polymer from organic feedstocks. Faster, but will produce less.</description>
+		<jobString>Making ABS Polymer from organics.</jobString>
+		<workAmount>2500</workAmount>
+		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Foods</li>
+						<li>PlantMatter</li>
+					</categories>
+					<exceptedThingDefs>
+						<li>Hay</li>
+					</exceptedThingDefs>
+				</filter>
+				<count>3.5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Foods</li>
+				<li>PlantMatter</li>
+			</categories>
+			<exceptedThingDefs>
+				<li>Hay</li>
+			</exceptedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+			<exceptedCategories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</exceptedCategories>
+		</defaultIngredientFilter>
+		<products>
+			<ABSPolymer>50</ABSPolymer>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeABSPolymerWeave</defName>
+		<label>Make ABS Polymer Weave</label>
+		<description>Make ABS Polymer Weave from cloth and ABS Polymer.</description>
+		<jobString>Making ABS Polymer Weave.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>1000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ABSPolymerWeaveProduction</researchPrerequisite>
+		<recipeUsers>
+			<li>ABSPolymerworkTable</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>6</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABSPolymer</li>
+					</thingDefs>
+				</filter>
+				<count>30</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>ABSPolymer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ABSPolymerWeave>30</ABSPolymerWeave>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>MakeReinforcedABSPolymerWeave</defName>
+		<label>Make Reinforced ABS Polymer Weave</label>
+		<description>Make Reinforced ABS Polymer Weave from ABS weave and steel.</description>
+		<jobString>Making ABS Polymer Weave.</jobString>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<workAmount>2000</workAmount>
+		<workSkill>Crafting</workSkill>
+		<researchPrerequisite>ABSPolymerWeaveProduction</researchPrerequisite>
+		<recipeUsers>
+			<li>ABSPolymerworkTable</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ABSPolymerWeave</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ABSPolymerWeave</li>
+				<li>Steel</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<ReinforcedABSPolymerWeave>24</ReinforcedABSPolymerWeave>
+		</products>
+	</RecipeDef>
+</Defs>

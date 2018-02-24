@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Plastic.label>プラスチック</Plastic.label>
+  <Plastic.description>バイオ液化燃料から精製された、合成樹脂です。安価で、軽量でそれなりに丈夫ですが、可燃性でもあります。</Plastic.description>
+  <Plastic.stuffProps.stuffAdjective>プラスチック製</Plastic.stuffProps.stuffAdjective>
+
+
+</LanguageData>
