@@ -15,9 +15,8 @@
 			<Flammability>0.16</Flammability>
 		</statBases>
 		<costList>
-			<ABSPolymer>2</ABSPolymer>
+			<ABSPolymer>5</ABSPolymer>
 		</costList>
-		<researchPrerequisite>ABSPolymer</researchPrerequisite>
 	</TerrainDef>
 
 </Defs>

@@ -6,9 +6,9 @@
 	<ResearchProjectDef ParentName="ABSPolymerResearchBase">
 		<defName>ABSPolymerWeaveProduction</defName>
 		<label>ABS Polymer Weave</label>
-		<description>Learn to produce ABS Polymer Weave using cloth and ABS at a tailoring bench.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Industrial</techLevel>
+		<description>Learn to produce ABS Polymer Weave and Reinforced Weave using cloth and ABS at a tailoring bench.</description>
+		<baseCost>2200</baseCost>
+		<techLevel>Spacer</techLevel>
 		<prerequisites>
 			<li>ABSPolymer</li>
 		</prerequisites>
