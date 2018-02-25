@@ -158,7 +158,7 @@
 		<soundWorking>Recipe_Tailor</soundWorking>
 		<workAmount>2000</workAmount>
 		<workSkill>Crafting</workSkill>
-		<researchPrerequisite>ABSPolymerWeaveProduction</researchPrerequisite>
+		<researchPrerequisite>ReinforcedABSPolymerWeaveProduction</researchPrerequisite>
 		<recipeUsers>
 			<li>ABSPolymerworkTable</li>
 		</recipeUsers>

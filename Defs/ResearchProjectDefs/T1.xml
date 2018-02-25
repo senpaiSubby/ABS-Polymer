@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<!--================================ Tier 1: Basic electricity ====================================-->
+
+	<ResearchProjectDef ParentName="ABSPolymerResearchBase">
+		<defName>ABSPolymer</defName>
+		<label>ABS Polymer</label>
+		<description>Learn how to produce ABS Polymer by refining Wood, Chemfuel and organics at the ABS Workbench.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Refining</li>
+		</prerequisites>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>
