@@ -4,7 +4,7 @@
 	<TerrainDef ParentName="FloorBase">
 		<defName>ABSPolymerFloor</defName>
 		<label>ABS Polymer Floor</label>
-		<color>(50,50,50)</color>
+		<color>(38,38,38)</color>
 		<renderPrecedence>250</renderPrecedence>
 		<description>ABS Polymer flooring.</description>
 		<texturePath>Terrain/Surfaces/ABSFloorBase</texturePath>

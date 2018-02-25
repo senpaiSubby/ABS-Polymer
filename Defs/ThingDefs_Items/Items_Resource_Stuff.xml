@@ -23,9 +23,10 @@
 			<categories>
 				<li>Metallic</li>
 				<li>Woody</li>
+				<li>Stony</li>
 			</categories>
 			<commonality>0.5</commonality>
-			<color>(50,50,50)</color>
+			<color>(38,38,38)</color>
 			<constructEffect>ConstructMetal</constructEffect>
 			<soundImpactStuff>BulletImpactWood</soundImpactStuff>
 			<soundMeleeHitSharp>MeleeHit_Wood</soundMeleeHitSharp>
@@ -33,7 +34,7 @@
 			<statFactors>
 				<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.7</ArmorRating_Sharp>
-				<Beauty>1.3</Beauty>
+				<Beauty>1</Beauty>
 				<DoorOpenSpeed>1.5</DoorOpenSpeed>
 				<Flammability>0.7</Flammability>
 				<MaxHitPoints>0.8</MaxHitPoints>
@@ -70,7 +71,7 @@
 				<li>Fabric</li>
 			</categories>
 			<commonality>0.15</commonality>
-			<color>(50,50,50)</color>
+			<color>(38,38,38)</color>
 			<statOffsets>
 				<ArmorRating_Blunt>0.01</ArmorRating_Blunt>
 				<ArmorRating_Sharp>0.01</ArmorRating_Sharp>
@@ -80,8 +81,8 @@
 			<statFactors>
 				<MaxHitPoints>2.5</MaxHitPoints>
 				<WorkToMake>1.3</WorkToMake>
-				<ArmorRating_Blunt>1,25</ArmorRating_Blunt>
-				<ArmorRating_Sharp>3</ArmorRating_Sharp>
+				<ArmorRating_Blunt>1.25</ArmorRating_Blunt>
+				<ArmorRating_Sharp>2.5</ArmorRating_Sharp>
 				<ArmorRating_Heat>1.65</ArmorRating_Heat>
 				<ArmorRating_Electric>0.5</ArmorRating_Electric>
 				<Flammability>0.3</Flammability>
@@ -112,7 +113,7 @@
 				<li>Fabric</li>
 			</categories>
 			<commonality>0.15</commonality>
-			<color>(50,50,50)</color>
+			<color>(38,38,38)</color>
 			<statOffsets>
 				<Insulation_Heat>0.9</Insulation_Heat>
 				<Insulation_Cold>0.9</Insulation_Cold>
@@ -123,8 +124,8 @@
 			<statFactors>
 				<MaxHitPoints>2.5</MaxHitPoints>
 				<WorkToMake>2.3</WorkToMake>
-				<ArmorRating_Blunt>1.25</ArmorRating_Blunt>
-				<ArmorRating_Sharp>3</ArmorRating_Sharp>
+				<ArmorRating_Blunt>3</ArmorRating_Blunt>
+				<ArmorRating_Sharp>4</ArmorRating_Sharp>
 				<ArmorRating_Heat>1.65</ArmorRating_Heat>
 				<ArmorRating_Electric>0.2</ArmorRating_Electric>
 				<Flammability>0.3</Flammability>

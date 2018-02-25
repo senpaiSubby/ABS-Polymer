@@ -13,7 +13,7 @@
 		<label>Make ABS Polymer from chemfuel</label>
 		<description>Make a batch of ABS Polymer by refining chemfuel.</description>
 		<jobString>Making ABS Polymer from chemfuel.</jobString>
-		<workAmount>3500</workAmount>
+		<workAmount>2500</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -39,7 +39,7 @@
 		<label>Make ABS Polymer from wood</label>
 		<description>Make a batch of Polymer ABS Polymer from wood. Faster, but will produce less</description>
 		<jobString>Making ABS Polymer from wood.</jobString>
-		<workAmount>2500</workAmount>
+		<workAmount>2000</workAmount>
 		<ingredients>
 			<li>
 				<filter>
@@ -65,7 +65,7 @@
 		<label>Make ABS Polymer from organics</label>
 		<description>Make a batch of ABS Polymer from organic feedstocks. Faster, but will produce less.</description>
 		<jobString>Making ABS Polymer from organics.</jobString>
-		<workAmount>2500</workAmount>
+		<workAmount>2000</workAmount>
 		<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
 		<ingredients>
 			<li>
