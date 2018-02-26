@@ -17,6 +17,9 @@
 		<costList>
 			<ABSPolymer>5</ABSPolymer>
 		</costList>
+		<researchPrerequisites>
+			<li>ABSPolymer</li>
+		</researchPrerequisites>
 	</TerrainDef>
 
 </Defs>

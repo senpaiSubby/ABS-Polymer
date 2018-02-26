@@ -77,7 +77,6 @@
 				<heatPerSecond>10</heatPerSecond>
 			</li>
 			<li Class="CompProperties_Breakdownable"/>
-			<minifiedDef>MinifiedFurniture</minifiedDef>
 		</comps>
 		<building>
 			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
